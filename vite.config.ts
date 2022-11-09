@@ -15,7 +15,7 @@ export default defineConfig({
       target: 'es5',
       rootDir: resolve('packages/'),
       declaration: true,
-      declarationDir: resolve('lib'),
+      declarationDir: resolve('dist'),
       exclude: resolve('node_modules/**'),
       allowSyntheticDefaultImports: true,
     }),
@@ -24,7 +24,7 @@ export default defineConfig({
     port: 8000,
   },
   build: {
-    outDir: 'lib',
+    outDir: 'dist',
     // 防止 vite 将 rgba() 颜色转化为 #RGBA 十六进制
     cssTarget: 'chrome61',
     lib: {

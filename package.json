@@ -17,8 +17,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "classnames": "^2.3.1",
-    "lodash-es": "^4.17.21"
+    
   },
   "peerDependencies": {
     "react": ">=18.2.0",

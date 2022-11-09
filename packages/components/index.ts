@@ -1,2 +1,2 @@
 export { Button } from './Button'
-export { Tooltips } from './ToolTips'
+export { ToolTips } from './ToolTips'
