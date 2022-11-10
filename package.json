@@ -17,7 +17,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    
+    "@floating-ui/react-dom": "^1.0.0"
   },
   "peerDependencies": {
     "react": ">=18.2.0",
